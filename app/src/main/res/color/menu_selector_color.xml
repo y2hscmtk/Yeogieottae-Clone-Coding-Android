@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    하단바의 아이콘이 클릭되었을때와 평소의 색상을 지정-->
+    <item android:color="#FE0000" android:state_checked="true" />
+    <item android:color="#666666" android:state_checked="false" />
+</selector>
