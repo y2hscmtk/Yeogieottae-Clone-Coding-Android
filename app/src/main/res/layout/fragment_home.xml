@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF">
@@ -16,138 +22,162 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/title_logo" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView2"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginStart="7dp"
         android:layout_marginTop="84dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/black" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView12"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView13"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView11"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:srcCompat="@drawable/ic_rentercar" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView13"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView14"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/ic_laser_ticket" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView4"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="84dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_motel" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView14"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="7dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
         app:srcCompat="@drawable/ic_restaurant" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView11"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginStart="7dp"
         android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView12"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/ic_domestic_airport" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView8"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView9"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
         app:srcCompat="@drawable/ic_guset_house" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView7"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView8"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
         app:srcCompat="@drawable/ic_camping_and_glamping" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView3"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginStart="7dp"
         android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@drawable/ic_home_and_villa" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView6"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="84dp"
         android:layout_marginEnd="7dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_pension_villa" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView9"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="7dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         app:srcCompat="@drawable/ic_space_rental" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView5"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="84dp"
+        android:background="@color/white"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/imageView6"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
@@ -179,35 +209,41 @@
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView16"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginStart="7dp"
         android:layout_marginTop="9dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView17"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/ic_overseas_airport" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView17"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/imageView18"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView16"
         app:layout_constraintTop_toBottomOf="@+id/view"
         app:srcCompat="@drawable/ic_overseas_lodging" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView18"
         android:layout_width="89dp"
         android:layout_height="65dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="105dp"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
@@ -225,15 +261,15 @@
         app:layout_constraintTop_toBottomOf="@+id/view"
         app:srcCompat="@drawable/image_ad" />
 
-    <ImageView
-        android:id="@+id/imageView15"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
         android:layout_width="wrap_content"
         android:layout_height="160dp"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="96dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view"
-        app:srcCompat="@drawable/image_ad1" />
+        app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <ImageView
         android:id="@+id/imageView19"
@@ -246,7 +282,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView20"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/pager"
         app:srcCompat="@drawable/btn_coupon" />
 
     <ImageView
@@ -259,7 +295,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView21"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView19"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/pager"
         app:srcCompat="@drawable/btn_challenge" />
 
     <ImageView
@@ -273,8 +309,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView20"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/pager"
         app:srcCompat="@drawable/btn_event" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
