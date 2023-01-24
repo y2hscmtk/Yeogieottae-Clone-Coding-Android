@@ -3,4 +3,6 @@
     <string name="bug2023">©BUG2023</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notFoundLodging">아직 찜한 숙소가 없어요</string>
+    <string name="notFoundLodging2">아직 찜한 숙소가 없어요</string>
 </resources>
