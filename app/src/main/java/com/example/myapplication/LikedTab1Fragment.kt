@@ -26,6 +26,8 @@ class LikedTab1Fragment : Fragment() {
 //            it.korea.setText("test")
 //        }
 
+//        binding.textView.setOnClickListener(){
+//        }
 
         return binding.root
     }

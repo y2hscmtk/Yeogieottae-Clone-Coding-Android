@@ -57,7 +57,7 @@ class LikedFragment : Fragment(R.layout.fragment_liked) {
         initViewPager()
 
         //fragment_home.xml과 연결을 하기 위해
-        val view = inflater.inflate(R.layout.fragment_liked,container,false)
+        //val view = inflater.inflate(R.layout.fragment_liked,container,false)
 
         //리턴한것을 xml로 삼음
         return binding

@@ -5,4 +5,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="notFoundLodging">아직 찜한 숙소가 없어요</string>
     <string name="notFoundLodging2">아직 찜한 숙소가 없어요</string>
+    <string name="notFoundSpace">아직 찜한 공간이 없어요</string>
+    <string name="notFountTicket">아직 찜한 티켓이 없어요</string>
+    <string name="guide_text1">마음에 드는 숙소를 찜 해두면</string>
+    <string name="guide_text2">빠르게 다시 찾아볼 수 있어요.</string>
+    <string name="guide_text3">마음에 드는 티켓을 찜 해두면</string>
+    <string name="guide_text4">마음에 드는 공간을 찜 해두면</string>
 </resources>
