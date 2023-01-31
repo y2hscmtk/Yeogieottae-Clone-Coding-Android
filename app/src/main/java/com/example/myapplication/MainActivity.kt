@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    public fun replaceFragment(fragment : Fragment) {
+    private fun replaceFragment(fragment : Fragment) {
         Log.d("MainActivity","${fragment}")
         supportFragmentManager.beginTransaction()
             .apply {
