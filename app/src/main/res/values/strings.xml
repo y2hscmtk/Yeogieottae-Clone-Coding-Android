@@ -11,4 +11,10 @@
     <string name="guide_text2">빠르게 다시 찾아볼 수 있어요.</string>
     <string name="guide_text3">마음에 드는 티켓을 찜 해두면</string>
     <string name="guide_text4">마음에 드는 공간을 찜 해두면</string>
+
+    <!-- Fullscreen custom dialog -->
+    <string name="default_dialog_title">다이얼로그 타이틀</string>
+    <string name="default_dialog_message">다이얼로그 메시지</string>
+    <string name="default_dialog_submit_caption">확인</string>
+    <string name="default_dialog_cancel_caption">취소</string>
 </resources>
