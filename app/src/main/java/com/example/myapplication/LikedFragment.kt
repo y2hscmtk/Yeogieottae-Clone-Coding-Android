@@ -16,7 +16,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.fragment_liked.view.*
 import kotlinx.android.synthetic.main.fragment_liked_tab1.view.*
-
+//찜화면
 class LikedFragment : Fragment(R.layout.fragment_liked) {
     lateinit var binding: View
 
