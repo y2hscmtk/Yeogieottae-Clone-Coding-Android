@@ -28,10 +28,10 @@
         android:id="@+id/bar"
         android:layout_width="120dp"
         android:layout_height="0.5dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="56dp"
         android:background="@color/middle_gray"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />
 
@@ -39,14 +39,14 @@
         android:id="@+id/bar4"
         android:layout_width="120dp"
         android:layout_height="0.5dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="56dp"
         android:background="@color/middle_gray"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintHorizontal_bias="0.879"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_start_kakao"
         android:layout_width="340dp"
         android:layout_height="60dp"
@@ -54,61 +54,99 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="35dp"
         android:background="@drawable/btn_round"
+        app:icon="@drawable/ic_kakao_resize"
+        app:iconTint="@color/kakao_brown"
+        app:iconGravity="textStart"
+        app:backgroundTint="@color/kakao_yellow"
         android:text="카카오로 시작하기"
+        android:textColor="@color/kakao_brown"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_start_naver"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="35dp"
         android:background="@drawable/btn_round"
-        android:backgroundTint="@color/naver_green"
+        app:backgroundTint="@color/naver_green"
+
+        app:icon="@drawable/ic_naver_resize"
+        app:iconTint="@color/white"
+        app:iconGravity="textStart"
         android:text="네이버로 시작하기"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_start_kakao" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_start_facebook"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="35dp"
+        android:background="@drawable/btn_round"
+
+        app:icon="@drawable/ic_facebook_resize"
+        app:iconTint="@null"
+        app:iconGravity="textStart"
+        app:backgroundTint="@color/facebook_blue"
+
         android:text="페이스북으로 시작하기"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_start_naver" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_start_google"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="35dp"
+        android:background="@drawable/btn_round"
+        android:textColor="#A0302F2F"
         android:text="구글로 시작하기"
+
+        app:icon="@drawable/ic_google_resize"
+        app:iconTint="@null"
+        app:iconGravity="textStart"
+        app:backgroundTint="@color/white"
+
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_start_facebook" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_start_email"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="35dp"
+        android:background="@drawable/btn_round"
         android:text="이메일로 시작하기"
+        android:textColor="@color/middle_blue"
+
+        app:backgroundTint="#F1F8FF"
+        android:textStyle="bold"
+        app:icon="@drawable/ic_email_resize"
+        app:iconTint="@color/middle_blue"
+        app:iconGravity="textStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -116,8 +154,8 @@
 
     <TextView
         android:id="@+id/btn_join_by_business"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="161dp"
+        android:layout_height="25dp"
         android:layout_marginTop="72dp"
         android:layout_marginBottom="53dp"
         android:text="비즈니스 로그인/회원가입"
@@ -132,8 +170,12 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:text="로그인/회원가입"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="181dp" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/bar4"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toEndOf="@+id/bar"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
