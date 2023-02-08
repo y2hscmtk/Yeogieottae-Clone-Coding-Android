@@ -7,311 +7,232 @@
     android:background="#FFFFFF">
 
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FFFFFF">
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="225dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/title_logo" />
-
-    <ImageButton
-        android:id="@+id/imageView2"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="84dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/black" />
-
-    <ImageButton
-        android:id="@+id/imageView12"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView13"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView11"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:srcCompat="@drawable/ic_rentercar" />
-
-    <ImageButton
-        android:id="@+id/imageView13"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView14"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/ic_laser_ticket" />
-
-    <ImageButton
-        android:id="@+id/imageView4"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="84dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_motel" />
-
-    <ImageButton
-        android:id="@+id/imageView14"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="7dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView13"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/ic_restaurant" />
-
-    <ImageButton
-        android:id="@+id/imageView11"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/ic_domestic_airport" />
-
-    <ImageButton
-        android:id="@+id/imageView8"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView9"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/ic_guset_house" />
-
-    <ImageButton
-        android:id="@+id/imageView7"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView8"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/ic_camping_and_glamping" />
-
-    <ImageButton
-        android:id="@+id/imageView3"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="8dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_home_and_villa" />
-
-    <ImageButton
-        android:id="@+id/imageView6"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="7dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_pension_villa" />
-
-    <ImageButton
-        android:id="@+id/imageView9"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="7dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/ic_space_rental" />
-
-    <ImageButton
-        android:id="@+id/imageView5"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="84dp"
-        android:background="@color/white"
-        android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_hotel_resort" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="8dp"
-        android:text="해외여행 갈 때"
-        android:textColor="#036FF3"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="260dp"
-        android:layout_height="2px"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="16dp"
-        android:background="#101010"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
-
-    <ImageButton
-        android:id="@+id/imageView16"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="9dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView17"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/ic_overseas_airport" />
-
-    <ImageButton
-        android:id="@+id/imageView17"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="20dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toStartOf="@+id/imageView18"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView16"
-        app:layout_constraintTop_toBottomOf="@+id/view"
-        app:srcCompat="@drawable/ic_overseas_lodging" />
-
-    <ImageButton
-        android:id="@+id/imageView18"
-        android:layout_width="89dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="105dp"
-        android:scaleType="fitCenter"
-        android:background="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView17"
-        app:layout_constraintTop_toBottomOf="@+id/view"
-        app:srcCompat="@drawable/ic_overseas_special_price" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="175dp"
-        android:layout_marginTop="316dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view"
-        app:srcCompat="@drawable/image_ad" />
-
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/pager"
-        android:layout_width="wrap_content"
-        android:layout_height="160dp"
-        android:layout_marginTop="96dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="130dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
-        app:layout_constraintEnd_toStartOf="@+id/imageView20"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pager"
-        app:srcCompat="@drawable/btn_coupon" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="130dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
-        app:layout_constraintEnd_toStartOf="@+id/imageView21"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView19"
-        app:layout_constraintTop_toBottomOf="@+id/pager"
-        app:srcCompat="@drawable/btn_challenge" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="130dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="2dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView20"
-        app:layout_constraintTop_toBottomOf="@+id/pager"
-        app:srcCompat="@drawable/btn_event" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/logo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jalnan"
+            android:text="@string/title"
+            android:textColor="#F45859"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/pager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.071" />
+
+        <ImageButton
+            android:id="@+id/imageView2"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/black"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <ImageButton
+            android:id="@+id/imageView12"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_rentercar"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <ImageButton
+            android:id="@+id/imageView13"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_laser_ticket"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <ImageButton
+            android:id="@+id/imageView4"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_motel"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <ImageButton
+            android:id="@+id/imageView14"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_restaurant"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <ImageButton
+            android:id="@+id/imageView11"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_domestic_airport"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <ImageButton
+            android:id="@+id/imageView8"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_guset_house"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <ImageButton
+            android:id="@+id/imageView7"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_camping_and_glamping"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_home_and_villa"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <ImageButton
+            android:id="@+id/imageView6"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_pension_villa"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <ImageButton
+            android:id="@+id/imageView9"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_space_rental"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <ImageButton
+            android:id="@+id/imageView5"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_hotel_resort"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="해외여행 갈 때"
+            android:textColor="#036FF3"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="304dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="260dp"
+            android:layout_height="2px"
+            android:background="#101010"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="312dp" />
+
+        <ImageButton
+            android:id="@+id/imageView16"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_overseas_airport"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <ImageButton
+            android:id="@+id/imageView17"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_overseas_lodging"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <ImageButton
+            android:id="@+id/imageView18"
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_overseas_special_price"
+            tools:layout_editor_absoluteX="209dp"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            app:srcCompat="@drawable/image_ad"
+            tools:layout_editor_absoluteY="629dp" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="130dp"
+            android:layout_height="58dp"
+            app:srcCompat="@drawable/btn_coupon"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="570dp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="130dp"
+            android:layout_height="58dp"
+            app:srcCompat="@drawable/btn_challenge"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="570dp" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="130dp"
+            android:layout_height="58dp"
+            app:srcCompat="@drawable/btn_event"
+            tools:layout_editor_absoluteX="271dp"
+            tools:layout_editor_absoluteY="570dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

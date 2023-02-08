@@ -45,10 +45,10 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
 
         //fragment_home.xml과 연결을 하기 위해
         val view = inflater.inflate(R.layout.fragment_search,container,false)
-
-        view.textViewSearch.setOnClickListener(){
-            view.textViewSearch.setTextColor(Color.BLUE)
-        }
+//
+//        view.textViewSearch.setOnClickListener(){
+//            view.textViewSearch.setTextColor(Color.BLUE)
+//        }
 
 
         return view

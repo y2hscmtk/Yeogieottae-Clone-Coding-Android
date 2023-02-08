@@ -17,4 +17,5 @@
     <string name="default_dialog_message">다이얼로그 메시지</string>
     <string name="default_dialog_submit_caption">확인</string>
     <string name="default_dialog_cancel_caption">취소</string>
+    <string name="title">요기어때.</string>
 </resources>

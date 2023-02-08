@@ -27,7 +27,7 @@
         android:layout_centerHorizontal="true"
         android:background="#fff"
         app:menu="@menu/btm_navi_menu"
-        app:itemIconTint="@color/menu_selector_color"
+        app:itemIconTint="@color/yogi_red"
         app:itemTextColor="@color/menu_selector_text_color"
         />
 

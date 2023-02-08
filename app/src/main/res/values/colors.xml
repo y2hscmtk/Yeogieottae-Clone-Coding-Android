@@ -12,4 +12,10 @@
     <color name="blue">#FF2456D6</color>
     <color name="white_gray">#FFEAEAEA</color>
     <color name="middle_gray">#A0ADADAD</color>
+    <color name="kakao_yellow">#F0FFDE00</color>
+    <color name="kakao_brown">#503C1E1E</color>
+    <color name="naver_green">#EE01C73C</color>
+    <color name="facebook_blue">#D81878F3</color>
+    <color name="yogi_red">#F45859</color>
+
 </resources>
