@@ -159,4 +159,12 @@
         tools:layout_editor_absoluteX="319dp"
         tools:layout_editor_absoluteY="385dp" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/round_box"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="235dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
