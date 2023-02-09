@@ -18,4 +18,10 @@
     <string name="default_dialog_submit_caption">확인</string>
     <string name="default_dialog_cancel_caption">취소</string>
     <string name="title">요기어때.</string>
+    <string name="terms1"><u>이용약관 동의</u> (필수)</string>
+    <string name="terms2"><u>만 14세 이상 확인</u> (필수)</string>
+    <string name="terms3"><u>개인정보 수집 및 이용 동의</u> (필수)</string>
+    <string name="terms4"><u>개인정보 수집 및 이용 동의</u> (선택)</string>
+    <string name="terms5"><u>마켓팅 알람 수신 동의</u> (선택)</string>
+    <string name="terms6"><u>위치기반 서비스 이용약관 동의</u> (선택)</string>
 </resources>
