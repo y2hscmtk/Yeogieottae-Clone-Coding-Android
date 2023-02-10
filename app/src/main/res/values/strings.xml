@@ -24,4 +24,5 @@
     <string name="terms4"><u>개인정보 수집 및 이용 동의</u> (선택)</string>
     <string name="terms5"><u>마켓팅 알람 수신 동의</u> (선택)</string>
     <string name="terms6"><u>위치기반 서비스 이용약관 동의</u> (선택)</string>
+    <string name="pw_reset"><u>비밀번호 재설정</u></string>
 </resources>
